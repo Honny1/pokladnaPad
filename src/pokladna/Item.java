@@ -2,7 +2,7 @@ package pokladna;
 
 import java.io.Serializable;
 
-public abstract class Item implements interfaceItem, Serializable {
+public abstract class Item implements InterfaceItem, Serializable {
     private String name;
     private String id;
     private float price;

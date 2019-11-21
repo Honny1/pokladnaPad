@@ -4,14 +4,14 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-public class CashRegister implements interfaceCashRegister, Serializable {
+public class CashRegister implements InterfaceCashRegister, Serializable {
     private String name;
     private String cashRegisterID;
     private float cash;
     private ArrayList<Item> items;
     private String currency;
 
-    public CashRegister(String name, float cash,String currency, ArrayList<Item> items) {
+    public CashRegister(String name, float cash, String currency, ArrayList<Item> items) {
         this.name = name;
         ItemId id_ = new ItemId();
         this.cashRegisterID = id_.getRandomUUIDString();

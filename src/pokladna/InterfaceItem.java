@@ -1,6 +1,6 @@
 package pokladna;
 
-public interface interfaceItem {
+public interface InterfaceItem {
     void newItems(int count);
 
     void changePrice(float price);

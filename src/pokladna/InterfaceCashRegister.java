@@ -3,7 +3,7 @@ package pokladna;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-public interface interfaceCashRegister {
+public interface InterfaceCashRegister {
     String getName();
 
     String getCashRegisterID();
