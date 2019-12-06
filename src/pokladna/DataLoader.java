@@ -5,7 +5,7 @@ import java.util.ArrayList;
 //load data from "fake" database :)
 
 public class DataLoader {
-    private static ArrayList<Item> creatItems() {
+    public static ArrayList<Item> creatItems() {
         ArrayList<Item> items = new ArrayList<>();
 
         Ticket item = new Ticket("Listek", 20, 30, "student");
